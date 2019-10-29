@@ -1,12 +1,14 @@
 import React from 'react';
-import Form from './Form';
+import FinalForm from './Form';
 
 class App extends React.Component {
     render () {
         return (
-            <React.Fragment>
-                <Form />
-            </React.Fragment>
+            <div className="container">
+                <div className="form">
+                    <FinalForm />
+                </div>
+            </div>
         );
     }
 }
